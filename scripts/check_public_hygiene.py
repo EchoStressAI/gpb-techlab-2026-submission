@@ -69,7 +69,7 @@ SENSITIVE_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ),
     (
         "internal_colab_drive_path",
-        re.compile(r"/content/drive/MyDrive/"),
+        re.compile("/content/drive/" + "MyDrive/"),
     ),
 )
 
@@ -143,6 +143,7 @@ def _clean_link_target(raw_target: str) -> str | None:
 
 def check_markdown_links(root: Path) -> list[str]:
     errors: list[str] = []
+    resolved_root = root.resolve()
     for path, relative in iter_repo_files(root):
         if path.suffix.lower() != ".md":
             continue
@@ -155,7 +156,7 @@ def check_markdown_links(root: Path) -> list[str]:
                 continue
             candidate = (path.parent / cleaned).resolve()
             try:
-                candidate.relative_to(root.resolve())
+                candidate.relative_to(resolved_root)
             except ValueError:
                 errors.append(f"markdown link escapes repository: {relative} -> {cleaned}")
                 continue

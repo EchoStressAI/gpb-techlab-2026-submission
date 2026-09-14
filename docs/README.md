@@ -15,12 +15,14 @@
 | Разобраться в CASE 2 | [CASE2_MODEL_CARD.md](CASE2_MODEL_CARD.md) |
 | Понять экспертную рецензию | [EXPERT_REVIEW_AND_VALIDATION.md](EXPERT_REVIEW_AND_VALIDATION.md) |
 | Понять правила расчёта/публикации метрик | [VALIDATION_PROTOCOL.md](VALIDATION_PROTOCOL.md) |
+| Сопоставить ТЗ с компонентами решения | [REQUIREMENTS_TRACEABILITY.md](REQUIREMENTS_TRACEABILITY.md) |
 | Понять объяснения модели | [EXPLAINABILITY.md](EXPLAINABILITY.md) |
 | Интегрироваться с API | [API_REFERENCE.md](API_REFERENCE.md) |
 | Реализовать case runtime | [RUNTIME_CONTRACT.md](RUNTIME_CONTRACT.md) |
 | Развернуть сервис | [DEPLOYMENT.md](DEPLOYMENT.md) |
 | Проверить системные требования | [SYSTEM_REQUIREMENTS.md](SYSTEM_REQUIREMENTS.md) |
 | Посмотреть компоненты и зависимости | [COMPONENTS.md](COMPONENTS.md) |
+| Понять test strategy | [TESTING.md](TESTING.md) |
 | Провести демонстрацию | [DEMO_GUIDE.md](DEMO_GUIDE.md) |
 | Понять требования к данным и ИБ | [DATA_PRIVACY_SECURITY.md](DATA_PRIVACY_SECURITY.md) |
 | Понять ограничения и корректную интерпретацию | [LIMITATIONS_AND_RESPONSIBLE_USE.md](LIMITATIONS_AND_RESPONSIBLE_USE.md) |
@@ -28,6 +30,7 @@
 | Решить типовые проблемы | [TROUBLESHOOTING.md](TROUBLESHOOTING.md) |
 | Проверить готовность перед показом | [ACCEPTANCE_CHECKLIST.md](ACCEPTANCE_CHECKLIST.md) |
 | Посмотреть план развития public layer | [ROADMAP.md](ROADMAP.md) |
+| Посмотреть команду и роли | [TEAM.md](TEAM.md) |
 | Быстро найти ответ на вопрос | [FAQ.md](FAQ.md) |
 | Расшифровать термин | [GLOSSARY.md](GLOSSARY.md) |
 
@@ -46,22 +49,26 @@
 Начать с:
 
 1. [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md)
-2. [METHODOLOGY.md](METHODOLOGY.md)
-3. [CASE1_MODEL_CARD.md](CASE1_MODEL_CARD.md)
-4. [CASE2_MODEL_CARD.md](CASE2_MODEL_CARD.md)
-5. [EXPERT_REVIEW_AND_VALIDATION.md](EXPERT_REVIEW_AND_VALIDATION.md)
-6. [LIMITATIONS_AND_RESPONSIBLE_USE.md](LIMITATIONS_AND_RESPONSIBLE_USE.md)
-7. [DEMO_GUIDE.md](DEMO_GUIDE.md)
+2. [REQUIREMENTS_TRACEABILITY.md](REQUIREMENTS_TRACEABILITY.md)
+3. [METHODOLOGY.md](METHODOLOGY.md)
+4. [CASE1_MODEL_CARD.md](CASE1_MODEL_CARD.md)
+5. [CASE2_MODEL_CARD.md](CASE2_MODEL_CARD.md)
+6. [EXPERT_REVIEW_AND_VALIDATION.md](EXPERT_REVIEW_AND_VALIDATION.md)
+7. [LIMITATIONS_AND_RESPONSIBLE_USE.md](LIMITATIONS_AND_RESPONSIBLE_USE.md)
+8. [DEMO_GUIDE.md](DEMO_GUIDE.md)
+9. [TEAM.md](TEAM.md)
 
 ### Разработчик интеграции
 
 Начать с:
 
 1. [ARCHITECTURE.md](ARCHITECTURE.md)
-2. [API_REFERENCE.md](API_REFERENCE.md)
-3. [RUNTIME_CONTRACT.md](RUNTIME_CONTRACT.md)
-4. [DEPLOYMENT.md](DEPLOYMENT.md)
-5. [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+2. [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)
+3. [API_REFERENCE.md](API_REFERENCE.md)
+4. [RUNTIME_CONTRACT.md](RUNTIME_CONTRACT.md)
+5. [DEPLOYMENT.md](DEPLOYMENT.md)
+6. [TESTING.md](TESTING.md)
+7. [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 
 ### ML / Data Science reviewer
 
@@ -82,7 +89,8 @@
 2. [DEPLOYMENT.md](DEPLOYMENT.md)
 3. [DATA_PRIVACY_SECURITY.md](DATA_PRIVACY_SECURITY.md)
 4. [COMPONENTS.md](COMPONENTS.md)
-5. [ACCEPTANCE_CHECKLIST.md](ACCEPTANCE_CHECKLIST.md)
+5. [TESTING.md](TESTING.md)
+6. [ACCEPTANCE_CHECKLIST.md](ACCEPTANCE_CHECKLIST.md)
 
 ## Принципы документации
 

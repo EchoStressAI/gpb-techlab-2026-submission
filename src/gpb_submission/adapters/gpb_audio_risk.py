@@ -200,8 +200,6 @@ def _case2_public_result(payload: dict[str, Any], config: AdapterConfig) -> dict
         else "LIMITED_EVIDENCE"
     )
 
-    # Only safe, human-readable XAI names are proxied. Exact coefficients,
-    # standardized values and additive numeric contributions stay upstream.
     top_positive = [str(item) for item in (upstream_xai.get("top_positive") or [])]
     top_negative = [str(item) for item in (upstream_xai.get("top_negative") or [])]
 
@@ -421,15 +419,6 @@ def create_adapter_app(
             ) from error
 
     return app
-
-
-def build_from_env() -> FastAPI:
-    return create_adapter_app(AdapterConfig.from_env())
-
-
-# Uvicorn entry point. Import fails fast if required adapter configuration is missing,
-# which is preferable to a process that looks healthy but cannot reach the real model.
-app = build_from_env()
 
 
 __all__ = [
